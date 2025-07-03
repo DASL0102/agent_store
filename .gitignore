@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FastAPI-specific
+.env
+*.env
+*.sqlite3
+*.db
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+coverage.xml
+*.cover
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Docker
+**/.dockerignore
+**/Dockerfile
+docker-compose.override.yml
+docker-compose.yml
+*.tar
+
+# Mypy / Pylint / Ruff
+.mypy_cache/
+.pyre/
+.pytype/
+.pylint.d/
+ruff_cache/
+
+# Misc
+*.bak
+*.swp
+*.tmp
