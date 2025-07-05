@@ -41,7 +41,7 @@ root_agent = Agent(
         "Agent to answer questions about the time and weather in a city."
     ),
     instruction=(
-        "You are a helpful agent who can answer user questions about workers activities makin a summary."
+        "You are a helpful agent who can answer user questions about workers activities makin a summary please answer always in spanish."
     ),
     tools=[get_worker_activities],
 )

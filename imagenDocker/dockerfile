@@ -1,0 +1,18 @@
+# Usa una imagen base oficial de Python
+FROM python:3.10.12
+
+# # Establece el directorio de trabajo en el contenedor
+# WORKDIR /app
+
+# Copia el archivo de requerimientos y la aplicación en el contenedor
+COPY requirements.txt requirements.txt
+COPY . .
+
+
+
+RUN apt-get update && \
+apt-get install -y libgl1-mesa-glx ffmpeg libsm6 libxext6 poppler-utils zbar-tools wait-for-it libenchant-2-2 && \
+pip install --upgrade pip && \
+pip install -r requirements.txt    
+
+#docker build -t statistics:1.0 .
