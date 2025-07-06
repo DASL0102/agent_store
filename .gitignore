@@ -49,8 +49,6 @@ dist/
 # Docker
 **/.dockerignore
 **/Dockerfile
-docker-compose.override.yml
-docker-compose.yml
 *.tar
 
 # Mypy / Pylint / Ruff
